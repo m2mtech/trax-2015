@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		5B4729B71ACF159A004E1D9F /* ViennaMarathon.gpx in Resources */ = {isa = PBXBuildFile; fileRef = 5B4729B61ACF159A004E1D9F /* ViennaMarathon.gpx */; };
+		5B4729B91ACF1AAF004E1D9F /* README.md in Sources */ = {isa = PBXBuildFile; fileRef = 5B4729B81ACF1AAF004E1D9F /* README.md */; };
 		5BF503DF1AAB776E00FE4BC9 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5BF503DE1AAB776E00FE4BC9 /* AppDelegate.swift */; };
 		5BF503E11AAB776E00FE4BC9 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5BF503E01AAB776E00FE4BC9 /* ViewController.swift */; };
 		5BF503E41AAB776E00FE4BC9 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5BF503E21AAB776E00FE4BC9 /* Main.storyboard */; };
@@ -26,6 +28,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		5B4729B61ACF159A004E1D9F /* ViennaMarathon.gpx */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = ViennaMarathon.gpx; sourceTree = "<group>"; };
+		5B4729B81ACF1AAF004E1D9F /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		5BF503D91AAB776E00FE4BC9 /* Trax.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Trax.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		5BF503DD1AAB776E00FE4BC9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		5BF503DE1AAB776E00FE4BC9 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -59,6 +63,7 @@
 		5BF503D01AAB776E00FE4BC9 = {
 			isa = PBXGroup;
 			children = (
+				5B4729B81ACF1AAF004E1D9F /* README.md */,
 				5BF503DB1AAB776E00FE4BC9 /* Trax */,
 				5BF503F11AAB776E00FE4BC9 /* TraxTests */,
 				5BF503DA1AAB776E00FE4BC9 /* Products */,
@@ -77,11 +82,10 @@
 		5BF503DB1AAB776E00FE4BC9 /* Trax */ = {
 			isa = PBXGroup;
 			children = (
+				5B4729B61ACF159A004E1D9F /* ViennaMarathon.gpx */,
 				5BF503DE1AAB776E00FE4BC9 /* AppDelegate.swift */,
 				5BF503E01AAB776E00FE4BC9 /* ViewController.swift */,
 				5BF503E21AAB776E00FE4BC9 /* Main.storyboard */,
-				5BF503E51AAB776E00FE4BC9 /* Images.xcassets */,
-				5BF503E71AAB776E00FE4BC9 /* LaunchScreen.xib */,
 				5BF503DC1AAB776E00FE4BC9 /* Supporting Files */,
 			);
 			path = Trax;
@@ -90,6 +94,8 @@
 		5BF503DC1AAB776E00FE4BC9 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				5BF503E51AAB776E00FE4BC9 /* Images.xcassets */,
+				5BF503E71AAB776E00FE4BC9 /* LaunchScreen.xib */,
 				5BF503DD1AAB776E00FE4BC9 /* Info.plist */,
 			);
 			name = "Supporting Files";
@@ -194,6 +200,7 @@
 			files = (
 				5BF503E41AAB776E00FE4BC9 /* Main.storyboard in Resources */,
 				5BF503E91AAB776E00FE4BC9 /* LaunchScreen.xib in Resources */,
+				5B4729B71ACF159A004E1D9F /* ViennaMarathon.gpx in Resources */,
 				5BF503E61AAB776E00FE4BC9 /* Images.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -212,6 +219,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5B4729B91ACF1AAF004E1D9F /* README.md in Sources */,
 				5BF503E11AAB776E00FE4BC9 /* ViewController.swift in Sources */,
 				5BF503DF1AAB776E00FE4BC9 /* AppDelegate.swift in Sources */,
 			);
@@ -338,6 +346,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				INFOPLIST_FILE = Trax/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -348,6 +357,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				INFOPLIST_FILE = Trax/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -407,6 +417,7 @@
 				5BF503FA1AAB776E00FE4BC9 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		5BF503FB1AAB776E00FE4BC9 /* Build configuration list for PBXNativeTarget "TraxTests" */ = {
 			isa = XCConfigurationList;
@@ -415,6 +426,7 @@
 				5BF503FD1AAB776E00FE4BC9 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
